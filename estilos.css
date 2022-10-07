@@ -1,0 +1,290 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.nombre-empresa {
+    background-color: #2B2A2A;
+    font-size: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+li {
+    display: inline;
+    padding: 10px;
+}
+
+.navbar-nav {
+    list-style-type: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .1);
+    background: #2B2A2A;
+    color: #fff;
+}
+
+
+a:hover {
+    color: coral;
+}
+
+.portfolio-block {
+    
+}
+
+.foto-contenedor {
+    width: 100%;
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);;
+}
+
+.foto-perfil {
+    width: 450px;
+    padding: 15px;
+    margin: auto;
+    display: block;
+    border-radius: 50%;
+}
+
+.sobre-mi {
+    width: 100%;
+}
+
+.sobre-mi-texto {
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    font-size: 30px;
+    padding: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.sobre-mi-texto:hover {
+    color: whitesmoke;
+}
+
+.boton-contacto {
+    width: 100%;
+    text-align: center;
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);;
+}
+
+.contactame {
+    background: #DCDADA;
+    color: black;
+    width: 199px;
+    margin: 0px 0px 20px 50px;
+    border-width: 0px;
+    border-radius: 25px;
+    padding: 20px;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.contactame:hover {
+    background: #CDCBCB;
+    border-width: 0.1px;
+}
+
+.container {
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+.textos-titulo {
+    font-size: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 20px;
+    text-align: center;
+    background-color: #2B2A2A;
+    color: #CDCBCB;
+}
+
+.textos-titulo:hover{
+    text-decoration-line: underline;
+    color: white;
+}
+
+
+.svg{
+    background-color: coral;
+    display: flex;
+    justify-content: center;
+    padding: 7px;
+}
+
+section img{
+    width: 35%;
+}
+
+.titulos-experiencia-laboral{
+    font-size: 35px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 3px;
+    text-align: center;
+    background-color: coral;
+}
+
+.titulos-experiencia-laboral:hover{
+    color: #CDCBCB;
+}
+
+.organization{
+    text-align: center;
+    font-size: 17px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 4px;
+    background-color: coral;
+    color: #DCDADA;
+    
+}
+
+.fechas{
+    width: 100%;
+}
+
+.period{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 3px;
+    background-color: coral;
+}
+
+.education-text{
+    text-align: center;
+    font-size: 17px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 4px;
+    background-color: coral;
+    color: #DCDADA;
+}
+
+.education-period{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 3px;
+    background-color: coral;
+}
+
+.texto-relleno-education{
+background-color: coral;
+}
+
+p{
+   background-color: coral;
+    text-align: center;
+}
+
+.texto-relleno{
+ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ padding: 4px;
+}
+
+.progress{
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+}
+
+.progress-bar{
+    width: 350px;
+    height: 35px;
+    background: rgba(69, 173, 173, 0.5);
+    border-radius: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+}
+
+.contact-info {
+    background-color: coral;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
+
+.contacto-info{;
+    margin: 5px;
+    text-align: center;
+}
+
+/*pie de página (footer)*/
+
+.box p{
+    background-color: #2B2A2A;
+    color: #CDCBCB;
+}
+
+.footer{
+    width: 100%;
+    background-color: #2B2A2A;
+}
+.footer .grupo-1{
+    width: 100%;
+    max-width: 1200px; 
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+
+.footer .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .grupo-1 .box figure{
+    width: 250px;
+}
+
+.footer .grupo-1 .box h2{
+    color: #CDCBCB;
+    margin-bottom: 25px;
+    font-size: 25px;
+}
+
+.footer .grupo-1 .box p{
+    margin-bottom: 10px;
+}
+
+.footer .grupo-1 .red-social a{
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.footer .grupo-2 {
+    font-size: 18px;
+    color: #CDCBCB;
+    background-color: #202020;
+    padding: 15px 0px 15px 0px;
+    text-align: center;
+}
+
+@media screen and (max-width:800px) {
+    .footer .grupo-1{
+        width: 100%;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 30px;
+        padding: 5px 0px;
+    }
+}
+
